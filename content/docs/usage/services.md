@@ -9,7 +9,7 @@ kube-vip is able to reconcile Kubernetes `Service` objects to configure networki
 
 ## Enabling services processing
 
-Service reconciliation can be enabled with the `svc_enable: true` flag or with the `--services` CLI flag.
+Service reconciliation can be enabled with the `svc_enable: true` env variable or with the `--services` CLI flag.
 
 ## Leader election modes
 
